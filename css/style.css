@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e4f9f5;
+}
+
+.topContainer {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+
+}
+.intro{
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+.mountain{
+
+   max-width: 100%;
+   height: auto;
+
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+}
+
+.h2-weight {
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #11999E;
+}
+
+p {
+  font-size: 1rem;
+  color: #40514E;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    margin-top: 2px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container {
+  margin: 100px auto 100px auto;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  margin-bottom: 0;
+  line-height: 2;
+  padding: 50px 50px;
+
+}
+
+.profile_pic {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+}
+
+.footer-link {
+  color: #11999E;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.profile{
+  width: 50%;
+  margin: 0 auto 100px auto;
+}
+
+.skills{
+  margin-top: 50px;
+}
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.gear-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.worker-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me{
+  width: 50%;
+margin: 100px auto 100px auto;
+}
+.bottom-text{
+  margin-bottom: 0;
+  color: #EAF6F6;
+}
+
+.btn {
+  display: inline-block;
+  font-family: verdana;
+  font-weight: bold;
+  color: #FFFCFC ;
+  font-size: 14px;
+  text-shadow: 1px 1px 0 #11999E;
+  box-shadow: 1px 1px 1px #11999E;
+  padding: 10px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #11999E;
+  text-decoration: none;
+  margin-top: 50px;
+
+}
+.btn:hover {
+  color: #FFFFFF ;
+  background: #14B7BD;
+}
