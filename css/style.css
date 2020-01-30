@@ -3,10 +3,10 @@ body {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   background-color: #e4f9f5;
+  background-size: cover;
 }
 
 .topContainer {
-  background-color: #e4f9f5;
   position: relative;
   padding-top: 100px;
 }
@@ -14,7 +14,9 @@ body {
   width: 50%;
   margin: 0 auto 0 auto;
 }
-.mountain {
+
+
+img{
   max-width: 100%;
   height: auto;
 }
@@ -57,14 +59,14 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 50px;
+  right: 19rem;
+  top: 3rem;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 18rem;
+  bottom: 18rem;
 }
 
 .middle-container {
@@ -89,6 +91,9 @@ hr {
   font-weight: bold;
   text-decoration: none;
   padding: 10px;
+}
+.footer-link:hover{
+  color: #eaf6f6
 }
 
 .profile {
